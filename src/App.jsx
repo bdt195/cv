@@ -11,6 +11,7 @@ function App() {
       <div className="md:grid md:grid-cols-6 lg:col-span-6 lg:col-start-2 2xl:col-span-6 2xl:col-start-3 2xl:grid-cols-10">
         <div className="bg-blue-950 text-amber-50 md:col-span-2 2xl:col-span-3">
           <ProfileCard />
+
           <hr className="mx-8 my-0 h-px border-0 bg-gray-200" />
           <ContactCard />
           <hr className="mx-8 my-0 h-px border-0 bg-gray-200" />
