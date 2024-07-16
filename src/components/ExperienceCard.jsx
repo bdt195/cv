@@ -61,7 +61,7 @@ const ExperienceCard = () => {
         {
           title: '',
           details: [
-            'E-Commerce Website: leestyle.vnDesigned, built, tested and implemented\n' + 'modules for Magento 2.',
+            'E-Commerce Website: leestyle.vn',
             'Designed, built, tested and implemented modules for Magento 2.',
             "Customized Magento's features based on client needs.",
             'Technical support and trouble-shooting to clients and end users.',

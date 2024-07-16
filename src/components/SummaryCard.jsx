@@ -4,8 +4,8 @@ const SummaryCard = () => {
       'backend technologies.',
     'Magento 2 developer with 5 years of professional experience in all software development life cycle phases, focusing\n' +
       'on web-based client-server applications.',
-    'Competent in leveraging AWS services for scalable and efficient cloud solutions.\n' +
-      'Proficient in Object-Oriented Design, data structures, problem-solving, complexity analysis and debugging, and a\n' +
+    'Competent in leveraging AWS services for scalable and efficient cloud solutions.',
+    'Proficient in Object-Oriented Design, data structures, problem-solving, complexity analysis and debugging, and a\n' +
       'good understanding of various design patterns.',
     'Work knowledge of Docker to develop and deploy the system.',
     'Experience in configuring and managing Linux servers.',
