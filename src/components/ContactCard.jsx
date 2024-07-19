@@ -27,8 +27,8 @@ const ContactCard = () => {
   ];
 
   return (
-    <div className="my-8 flex flex-col items-center justify-center gap-3">
-      <div className="text-2xl font-semibold">Contact</div>
+    <div className="my-8 flex flex-col justify-center gap-3">
+      <div className="text-center text-2xl font-semibold">Contact</div>
       <div className="mx-8 flex flex-col gap-3">
         {contactData.map((contact) => (
           <div
