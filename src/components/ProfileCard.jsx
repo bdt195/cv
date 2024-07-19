@@ -6,16 +6,21 @@ const ProfileCard = () => {
   const socials = [
     {
       id: 'github',
+      label: 'Github profile',
       icon: faGithub,
       url: 'https://github.com/bdt195',
     },
     {
       id: 'linkedin',
+      label: 'Linkedin profile',
+
       icon: faLinkedin,
       url: 'https://linkedin.com/in/tho-bui-090870162',
     },
     {
       id: 'facebook',
+      label: 'Facebook profile',
+
       icon: faFacebook,
       url: 'https://facebook.com/buiductho14111995',
     },
@@ -31,7 +36,7 @@ const ProfileCard = () => {
       <h1 className="">Fullstack Developer</h1>
       <div className="flex gap-4">
         {socials.map((social) => (
-          <a key={social.id} href={social.url} target="_blank">
+          <a key={social.id} href={social.url} aria-label={social.label} target="_blank">
             <FontAwesomeIcon className="w-8" size="2xl" icon={social.icon} />
           </a>
         ))}
