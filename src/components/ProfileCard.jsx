@@ -1,6 +1,6 @@
 import avatar from '../assets/avatar.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faStrava } from '@fortawesome/free-brands-svg-icons';
 
 const ProfileCard = () => {
   const socials = [
@@ -13,16 +13,20 @@ const ProfileCard = () => {
     {
       id: 'linkedin',
       label: 'Linkedin profile',
-
       icon: faLinkedin,
       url: 'https://linkedin.com/in/tho-bui-090870162',
     },
     {
       id: 'facebook',
       label: 'Facebook profile',
-
       icon: faFacebook,
       url: 'https://facebook.com/buiductho14111995',
+    },
+    {
+      id: 'strava',
+      label: 'Strava profile',
+      icon: faStrava,
+      url: 'https://www.strava.com/athletes/83533570',
     },
   ];
   return (
