@@ -1,8 +1,7 @@
-# React + Vite
+# TonyB's CV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal CV project built using React and TailwindCSS.
 
-Currently, two official plugins are available:
+The project is deployed on AWS: https://tonybthedev.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Diagram](./diagram.png?raw=true)
